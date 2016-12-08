@@ -43,7 +43,6 @@ public class CameraColorTracker {
 		} catch (Exception e) { e.printStackTrace(); }
 	}
 	
-	@SuppressWarnings("static-access")
 	public void operate() {
 		if (camera.isOpened())
 			while (true)
